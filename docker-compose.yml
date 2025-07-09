@@ -1,0 +1,29 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=StrongP@ssw0rd
+    ports:
+      - "1433:1433"
+    networks:
+      - sqlnet
+    volumes:
+      - sqlserverdata:/var/opt/mssql 
+  sqltools:
+    build:
+      context: ./Database
+      dockerfile: Dockerfile.sqltools
+    container_name: sqltools
+    depends_on:
+      - sqlserver
+    networks:
+      - sqlnet
+
+networks:
+  sqlnet:
+
+volumes:
+  sqlserverdata:  
+
