@@ -1,0 +1,11 @@
+FROM mcr.microsoft.com/mssql-tools
+
+COPY init-db.sql /init-db.sql
+
+ENTRYPOINT [ "bash", "-c", " \
+  echo '⏳ Waiting for SQL Server to be ready...'; \
+  sleep 20; \
+  echo '🚀 Running init-db.sql...'; \
+  /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P StrongP@ssw0rd -i /init-db.sql; \
+  echo '✅ Script executed successfully.' \
+"]
