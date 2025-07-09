@@ -1,4 +1,12 @@
 services:
+  eqtax-api:
+    build:
+      context: ./Backend/EQTAXTechnicalTestApp
+      dockerfile: EQTAXTechnicalTestApp.Api/Dockerfile
+    container_name: eqtax-api
+    ports:
+      - "8080:80"
+      
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: sqlserver
