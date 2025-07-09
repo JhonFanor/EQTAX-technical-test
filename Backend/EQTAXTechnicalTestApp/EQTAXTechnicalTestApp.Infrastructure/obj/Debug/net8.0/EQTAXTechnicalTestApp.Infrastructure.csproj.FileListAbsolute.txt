@@ -1,0 +1,13 @@
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/bin/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.deps.json
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/bin/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.dll
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/bin/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.pdb
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.csproj.AssemblyReference.cache
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.AssemblyInfoInputs.cache
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.AssemblyInfo.cs
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.csproj.CoreCompileInputs.cache
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.sourcelink.json
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.dll
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/refint/EQTAXTechnicalTestApp.Infrastructure.dll
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.pdb
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/ref/EQTAXTechnicalTestApp.Infrastructure.dll

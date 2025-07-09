@@ -5,7 +5,11 @@ services:
       dockerfile: EQTAXTechnicalTestApp.Api/Dockerfile
     container_name: eqtax-api
     ports:
-      - "8080:80"
+      - "8080:8080"
+    depends_on:
+      - sqlserver
+    networks:
+      - sqlnet
       
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
@@ -19,6 +23,7 @@ services:
       - sqlnet
     volumes:
       - sqlserverdata:/var/opt/mssql 
+      
   sqltools:
     build:
       context: ./Database
