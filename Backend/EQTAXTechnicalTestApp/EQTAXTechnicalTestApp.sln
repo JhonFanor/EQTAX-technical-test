@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQTAXTechnicalTestApp.Api", "EQTAXTechnicalTestApp.Api\EQTAXTechnicalTestApp.Api.csproj", "{87E0E71A-0375-42ED-A87A-A60BCDE90C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQTAXTechnicalTestApp.Application", "EQTAXTechnicalTestApp.Application\EQTAXTechnicalTestApp.Application.csproj", "{D0C4C6D8-B53C-4CC7-AD40-BF4316238985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQTAXTechnicalTestApp.Domain", "EQTAXTechnicalTestApp.Domain\EQTAXTechnicalTestApp.Domain.csproj", "{F4845AA1-DC1C-4BA4-BF01-8C49BD8DF30F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQTAXTechnicalTestApp.Infrastructure", "EQTAXTechnicalTestApp.Infrastructure\EQTAXTechnicalTestApp.Infrastructure.csproj", "{8FCA9DCB-F2D4-4706-9DB5-43C99107D79F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E0E71A-0375-42ED-A87A-A60BCDE90C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E0E71A-0375-42ED-A87A-A60BCDE90C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E0E71A-0375-42ED-A87A-A60BCDE90C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E0E71A-0375-42ED-A87A-A60BCDE90C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C4C6D8-B53C-4CC7-AD40-BF4316238985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C4C6D8-B53C-4CC7-AD40-BF4316238985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C4C6D8-B53C-4CC7-AD40-BF4316238985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C4C6D8-B53C-4CC7-AD40-BF4316238985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4845AA1-DC1C-4BA4-BF01-8C49BD8DF30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4845AA1-DC1C-4BA4-BF01-8C49BD8DF30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4845AA1-DC1C-4BA4-BF01-8C49BD8DF30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4845AA1-DC1C-4BA4-BF01-8C49BD8DF30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCA9DCB-F2D4-4706-9DB5-43C99107D79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCA9DCB-F2D4-4706-9DB5-43C99107D79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCA9DCB-F2D4-4706-9DB5-43C99107D79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCA9DCB-F2D4-4706-9DB5-43C99107D79F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
