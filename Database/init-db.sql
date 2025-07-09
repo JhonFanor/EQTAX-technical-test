@@ -29,3 +29,26 @@ BEGIN
 END
 GO
 
+IF OBJECT_ID('Users', 'U') IS NULL
+BEGIN
+    CREATE TABLE Users (
+        Id int IDENTITY(1, 1) PRIMARY KEY,
+	UserName varchar(200) NOT NULL,
+	[Password] varchar(200) NOT NULL
+    );
+END
+GO
+
+IF OBJECT_ID('RefreshTokens', 'U') IS NULL
+BEGIN
+    CREATE TABLE RefreshTokens (
+        Id int IDENTITY(1, 1) PRIMARY KEY,
+	Token varchar(512) NOT NULL,
+	Expiration DATETIME2 NOT NULL,
+	UserId int NOT NULL,
+	CONSTRAINT FK_RefreshTokens_Users FOREIGN KEY (UserId)
+            REFERENCES Users(Id)
+            ON DELETE CASCADE
+    );
+END
+GO
