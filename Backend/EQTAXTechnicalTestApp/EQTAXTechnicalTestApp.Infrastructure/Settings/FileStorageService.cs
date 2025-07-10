@@ -35,7 +35,7 @@ namespace EQTAXTechnicalTestApp.Infrastructure.Settings
             if (!Directory.Exists(_uploadPath))
                 Directory.CreateDirectory(_uploadPath);
 
-            var fileName = Guid.NewGuid() + ".pdf";
+            var fileName = Path.GetFileName(file.FileName);
             var fullPath = Path.Combine(_uploadPath, fileName);
 
             using var stream = new FileStream(fullPath, FileMode.Create);

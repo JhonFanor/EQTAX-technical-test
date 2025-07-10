@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/ystcGvjwNw=",
+  "dgSpecHash": "IfSa7DXoAMw=",
   "success": true,
   "projectFilePath": "/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Api/EQTAXTechnicalTestApp.Api.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "/home/jhon/.nuget/packages/microsoft.aspnetcore.dataprotection/2.3.0/microsoft.aspnetcore.dataprotection.2.3.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/2.3.0/microsoft.aspnetcore.dataprotection.abstractions.2.3.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.aspnetcore.diagnostics.abstractions/2.3.0/microsoft.aspnetcore.diagnostics.abstractions.2.3.0.nupkg.sha512",
+    "/home/jhon/.nuget/packages/microsoft.aspnetcore.diagnostics.healthchecks/2.2.0/microsoft.aspnetcore.diagnostics.healthchecks.2.2.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.aspnetcore.hosting.abstractions/2.3.0/microsoft.aspnetcore.hosting.abstractions.2.3.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.aspnetcore.hosting.server.abstractions/2.3.0/microsoft.aspnetcore.hosting.server.abstractions.2.3.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.3.0/microsoft.aspnetcore.html.abstractions.2.3.0.nupkg.sha512",
@@ -75,6 +76,8 @@
     "/home/jhon/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.7/microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.extensions.dependencymodel/2.1.0/microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.1/microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
+    "/home/jhon/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/2.2.0/microsoft.extensions.diagnostics.healthchecks.2.2.0.nupkg.sha512",
+    "/home/jhon/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/2.2.0/microsoft.extensions.diagnostics.healthchecks.abstractions.2.2.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.extensions.fileproviders.composite/8.0.0/microsoft.extensions.fileproviders.composite.8.0.0.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",

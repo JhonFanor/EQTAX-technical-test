@@ -11,10 +11,29 @@ services:
     volumes:
       - ${UPLOAD_FOLDER_HOST}:/mnt/host_uploads
     environment:
-      - FileUploadSettings__UploadFolder=/mnt/host_uploads
+      - FileUploadSettings__UploadFolder=/mnt/host_uploads   
+
     networks:
       - sqlnet
       
+  document-processing-service:
+    build:
+      context: ./DocumentProcessingService/DocumentProcessingApp
+      dockerfile: DocumentProcessingApp.Worker/Dockerfile
+    container_name: eqtax-document-processing-service
+    environment:
+      - FileSettings__Input=/mnt/host_uploads
+      - FileSettings__Ocr=/mnt/host_uploads/ocr
+      - FileSettings__Unknown=/mnt/host_uploads/unknown
+      - Services__DocKeyApiUrl=http://eqtax-api:8080/api/DocKeys/all
+      - Services__LogApiUrl=http://eqtax-api:8080/api/LogProcess
+    volumes:
+      - ${UPLOAD_FOLDER_HOST}:/mnt/host_uploads
+    depends_on:
+      - eqtax-api
+    networks:
+      - sqlnet
+  
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: sqlserver
