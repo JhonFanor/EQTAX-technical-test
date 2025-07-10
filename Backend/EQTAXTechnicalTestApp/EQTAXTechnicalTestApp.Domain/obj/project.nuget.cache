@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "d/MkGqMqeFI=",
+  "dgSpecHash": "IzuD7JFi27s=",
   "success": true,
   "projectFilePath": "/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/EQTAXTechnicalTestApp.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/jhon/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.3.0/microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "/home/jhon/.nuget/packages/microsoft.aspnetcore.http.features/2.3.0/microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "/home/jhon/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/jhon/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
