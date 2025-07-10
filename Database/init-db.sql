@@ -52,3 +52,10 @@ BEGIN
     );
 END
 GO
+
+IF NOT EXISTS (SELECT 1 FROM Users WHERE UserName = 'admin')
+BEGIN
+    INSERT INTO Users (UserName, [Password])
+    VALUES ('admin', '$2a$11$wVgfrI8T7zP8NLN0I8YHzuWyef0pxCCExIsiydtx3SbTRzDbw8nYi');
+END
+GO

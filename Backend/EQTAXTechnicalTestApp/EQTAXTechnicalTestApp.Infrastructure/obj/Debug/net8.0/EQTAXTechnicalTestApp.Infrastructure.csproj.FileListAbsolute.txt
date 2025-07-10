@@ -11,3 +11,6 @@
 /home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/refint/EQTAXTechnicalTestApp.Infrastructure.dll
 /home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTechnicalTestApp.Infrastructure.pdb
 /home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/ref/EQTAXTechnicalTestApp.Infrastructure.dll
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/bin/Debug/net8.0/EQTAXTechnicalTestApp.Domain.dll
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/bin/Debug/net8.0/EQTAXTechnicalTestApp.Domain.pdb
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Infrastructure/obj/Debug/net8.0/EQTAXTec.159D23EF.Up2Date
