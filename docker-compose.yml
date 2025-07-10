@@ -8,6 +8,10 @@ services:
       - "8080:8080"
     depends_on:
       - sqlserver
+    volumes:
+      - ${UPLOAD_FOLDER_HOST}:/mnt/host_uploads
+    environment:
+      - FileUploadSettings__UploadFolder=/mnt/host_uploads
     networks:
       - sqlnet
       

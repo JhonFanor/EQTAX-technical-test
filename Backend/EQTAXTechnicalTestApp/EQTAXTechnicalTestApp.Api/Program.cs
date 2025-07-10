@@ -51,6 +51,9 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IJwtService, JwtService>();
 builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IDocKeyRepository, DocKeyRepository>();
+builder.Services.AddScoped<ILogProcessRepository, LogProcessRepository>();
+builder.Services.AddScoped<IFileStorageService, FileStorageService>();
 
 builder.Services.AddMediatR(cfg => 
     cfg.RegisterServicesFromAssembly(typeof(LoginCommand).Assembly));
