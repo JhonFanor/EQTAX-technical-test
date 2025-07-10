@@ -1,0 +1,12 @@
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/bin/Debug/net8.0/EQTAXTechnicalTestApp.Domain.deps.json
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/bin/Debug/net8.0/EQTAXTechnicalTestApp.Domain.dll
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/bin/Debug/net8.0/EQTAXTechnicalTestApp.Domain.pdb
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/EQTAXTechnicalTestApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/EQTAXTechnicalTestApp.Domain.AssemblyInfoInputs.cache
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/EQTAXTechnicalTestApp.Domain.AssemblyInfo.cs
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/EQTAXTechnicalTestApp.Domain.csproj.CoreCompileInputs.cache
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/EQTAXTechnicalTestApp.Domain.sourcelink.json
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/EQTAXTechnicalTestApp.Domain.dll
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/refint/EQTAXTechnicalTestApp.Domain.dll
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/EQTAXTechnicalTestApp.Domain.pdb
+/home/jhon/Documentos/Prueba tecnica/EQTAX-technical-test/Backend/EQTAXTechnicalTestApp/EQTAXTechnicalTestApp.Domain/obj/Debug/net8.0/ref/EQTAXTechnicalTestApp.Domain.dll
