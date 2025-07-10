@@ -1,0 +1,68 @@
+<div class="card mt-4">
+  <div class="card-header">Administrar Claves</div>
+  <div class="card-body">
+    
+    <!-- 🔹 Formulario Crear -->
+    <form id="createKeyForm">
+      <h5>Crear nueva clave</h5>
+      <div class="row">
+        <div class="col-md-5 mb-3">
+          <label for="newClave" class="form-label">Clave</label>
+          <input type="text" class="form-control" id="newClave" required>
+        </div>
+        <div class="col-md-5 mb-3">
+          <label for="newDocName" class="form-label">DocName</label>
+          <input type="text" class="form-control" id="newDocName" required>
+        </div>
+        <div class="col-md-2 d-flex align-items-end mb-3">
+          <button type="submit" class="btn btn-primary w-100">Crear</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- 🔸 Formulario Editar -->
+    <form id="editKeyForm" class="d-none">
+      <h5>Editar clave</h5>
+      <input type="hidden" id="editKeyId" />
+      <div class="row">
+        <div class="col-md-5 mb-3">
+          <label for="editClave" class="form-label">Clave</label>
+          <input type="text" class="form-control" id="editClave" required>
+        </div>
+        <div class="col-md-5 mb-3">
+          <label for="editDocName" class="form-label">DocName</label>
+          <input type="text" class="form-control" id="editDocName" required>
+        </div>
+        <div class="col-md-1 d-flex align-items-end mb-3">
+          <button type="submit" class="btn btn-success w-100">Guardar</button>
+        </div>
+        <div class="col-md-1 d-flex align-items-end mb-3">
+          <button type="button" class="btn btn-secondary w-100" id="cancelEdit">Cancelar</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- 📢 Mensajes -->
+    <div id="keyMessage" class="mt-3"></div>
+
+    <hr />
+
+    <!-- 📄 Tabla de claves -->
+    <h5 class="mt-4">Claves registradas</h5>
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover mt-2">
+        <thead class="table-light">
+          <tr>
+            <th>Clave</th>
+            <th>DocName</th>
+            <th style="width: 180px;">Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="keyTableBody"></tbody>
+      </table>
+    </div>
+
+    <!-- 🔢 Paginación -->
+    <div id="pagination" class="mt-3 d-flex justify-content-center"></div>
+  </div>
+</div>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EQTAXTechnicalTestApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+336dd841744a33fa9b9c30b7ef2e3000327771bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64a8243b6dfaa6e06de71afff85b97bcfcb0076a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EQTAXTechnicalTestApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EQTAXTechnicalTestApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

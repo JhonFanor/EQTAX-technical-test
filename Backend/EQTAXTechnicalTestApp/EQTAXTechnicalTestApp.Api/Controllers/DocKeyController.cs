@@ -51,8 +51,6 @@ namespace EQTAXTechnicalTestApp.Api.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] DocKeyRequest request)
         {
-            if (id != request.Id)
-                return BadRequest("ID no coincide");
             request.Id = id; 
             var command = new UpdateDocKeyCommand(request);
             await _mediator.Send(command);
