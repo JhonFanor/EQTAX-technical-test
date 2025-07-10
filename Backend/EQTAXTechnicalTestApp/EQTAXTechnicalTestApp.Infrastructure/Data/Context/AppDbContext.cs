@@ -21,5 +21,7 @@ namespace EQTAXTechnicalTestApp.Infrastructure.Context
 
         public DbSet<User> Users { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
+        public DbSet<DocKey> DocKey { get; set; }
+        public DbSet<LogProcess> LogProcess { get; set; }
     }
 }
