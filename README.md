@@ -54,3 +54,4 @@ Este comando:
 - Todos los servicios se inician automáticamente con el comando docker compose up --build
 
 - Para detener la aplicación, usa Ctrl+C en la terminal o docker compose down en otra terminal
+- El usuario y contraseña para iniciar sesion es admin y la contraseña 123456
