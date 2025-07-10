@@ -1,6 +1,7 @@
+using EQTAXTechnicalTestApp.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EQTAXTechnicalTestApp.Infrastructure.Persistence
+namespace EQTAXTechnicalTestApp.Infrastructure.Context
 {
     /// <summary>
     /// Represents the application's database context used to interact with the underlying database
@@ -17,5 +18,8 @@ namespace EQTAXTechnicalTestApp.Infrastructure.Persistence
         /// database provider, and other EF Core configuration settings.
         /// </param>
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
     }
 }
