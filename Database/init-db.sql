@@ -56,6 +56,6 @@ GO
 IF NOT EXISTS (SELECT 1 FROM Users WHERE UserName = 'admin')
 BEGIN
     INSERT INTO Users (UserName, [Password])
-    VALUES ('admin', '$2a$11$wVgfrI8T7zP8NLN0I8YHzuWyef0pxCCExIsiydtx3SbTRzDbw8nYi');
+    VALUES ('admin', '$2a$11$Y9bTInrDFtKup2R54RyAg.48E8FjIzDMLTwP.9pP3v9coiKiSQ0Ha');
 END
 GO
